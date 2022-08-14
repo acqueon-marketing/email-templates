@@ -1,9 +1,17 @@
-<!DOCTYPE html>
-<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
+    <!--[if (gte mso 9)|(IE)]><xml><o:OfficeDocumentSettings><o:AllowPNG></o:AllowPNG><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="format-detection" content="date=no" />
+	<meta name="format-detection" content="address=no" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="x-apple-disable-message-reformatting" />
+	<meta name="format-detection" content="email=no">
     <title>Document</title>
 
 
@@ -111,6 +119,13 @@
         font-weight: 400;
         margin-bottom: 10px;
     }
+    .table-mob.footer .social-wrap .social-icon {
+        display: inline-block;
+    }
+    .table-mob.footer .social-wrap .social-icon > img {
+        width: 25px;
+        height: 25px;
+    }
     .table-mob.footer .social-wrap .socials {
         display: block;
         list-style: none;
@@ -128,13 +143,16 @@
         width: 25px;
     }
 
+    .table-mob.author-inner {
+        width: 600px;
+    }
     .table-mob.author .author-img-td {
-        width: calc(80px + 25px + 15px);
+        width: calc(80px + 15px);
     }
     .table-mob.author .author-img {
         width: 80px;
-        padding-left: 25px;
-        margin-bottom: 10px;
+        /* padding-left: 25px;
+        margin-bottom: 10px; */
     }
     .table-mob.author .author-img img {
         border: 1px solid #d2d2d2;
@@ -387,7 +405,9 @@
         .table-mob {
             width: 100%;
         }
-
+        .table-mob.author-inner {
+            width: calc(100% - 50px);
+        }
         .icon-block-outer td {
             display: block;
         }
@@ -445,8 +465,43 @@
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table>                
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
+
+    <!-- pre header -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a class="img-link" contenteditable="true" href="https://acqueon.com/?Source=Inbound&Lead_Source_Detail=Partner%20Newsletter&Asset_Details=NobleNewsletter_06292022">
+                                        <img alt="acqueon header" src="https://go.acqueon.com/l/792493/2022-08-14/5s2lk/792493/1660493747L9YWGTw4/email_logo.jpg" width="200" height="60">
+                                    </a>
+                                </td>
+                                <td style="text-align: right;padding-right: 25px;">
+                                    <p contenteditable="true"><b>Mail Newsletter date</b></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !pre header -->
+
+    <!-- banner -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
                         <tbody>
                             <tr>
@@ -460,76 +515,38 @@
                             </tr>
                         </tbody>
                     </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !banner -->
 
-                    <!-- lead -->
+    <!-- content -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
                         <tbody>
                             <tr>
                                 <td>
-                                    <div class="text-wrap p-5">
-                                        <p>
-                                            Hello %%first_name%%,
-                                        </p>
-                                        <p contenteditable="true">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, eveniet ad? Ea ad inventore eaque magnam dolorum explicabo excepturi. Voluptate nulla voluptatibus vitae perspiciatis totam corporis, ab iusto hic asperiores.
-                                        </p>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- lead !-->
-
-                    <!-- buttons -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="text-wrap text-center pb-5">
-                                        <a contenteditable="true" 
-                                            href="#" rel="noopener" 
-                                            class="btn btn-primary text-center" target="_blank">
-                                        <!--[if mso]>
-                                                <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i>
-                                            <![endif]-->
-                                            <span>primary button</span>
-                                            <!--[if mso]>
-                                                <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
-                                            <![endif]-->
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- buttons !-->
-
-                    <!-- icon block -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
-                        <tbody>
-                            <tr>
-                                <td class="p-5">
-                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="icon-block-outer">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
                                         <tbody>
                                             <tr>
-                                                <td>
-                                                    <div class="figure icon-block text-center f-14">
-                                                        <img contenteditable="true" src="https://go.acqueon.com/l/792493/2022-08-04/5r59y/792493/1659616756soGZPtaS/5279111_network_fb_social_media_facebook_facebook_logo_icon.png" alt="facebook">
-                                                        <div class="figcaption" contenteditable="true">Some desc for icon</div>
-                                                    </div>
+                                                <td style="height: 25px;">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-wrap">
+                                                    <p>
+                                                        Hello %%first_name%%,
+                                                    </p>
+                                                    <p contenteditable="true">
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, eveniet ad? Ea ad inventore eaque magnam dolorum explicabo excepturi. Voluptate nulla voluptatibus vitae perspiciatis totam corporis, ab iusto hic asperiores.
+                                                    </p>
                                                 </td>
-                                                <td>
-                                                    <div class="figure icon-block text-center f-14">
-                                                        <img contenteditable="true" src="https://go.acqueon.com/l/792493/2022-08-04/5r59y/792493/1659616756soGZPtaS/5279111_network_fb_social_media_facebook_facebook_logo_icon.png" alt="facebook">
-                                                        <div class="figcaption" contenteditable="true">Some desc for icon goes here</div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="figure icon-block text-center f-14">
-                                                        <img contenteditable="true" src="https://go.acqueon.com/l/792493/2022-08-04/5r59y/792493/1659616756soGZPtaS/5279111_network_fb_social_media_facebook_facebook_logo_icon.png" alt="facebook">
-                                                        <div class="figcaption" contenteditable="true">Some desc for icon</div>
-                                                    </div>
-                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 25px;">&nbsp;</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -537,192 +554,250 @@
                             </tr>
                         </tbody>
                     </table>
-                    <!-- icon block !-->
-
-                    <!-- buttons secondary -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="text-wrap text-center pb-5">
-                                        <a contenteditable="true" 
-                                            href="#" rel="noopener" 
-                                            class="btn btn-secondary text-center" target="_blank">
-                                        <!--[if mso]>
-                                                <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i>
-                                            <![endif]-->
-                                            <span>secondary button</span>
-                                            <!--[if mso]>
-                                                <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
-                                            <![endif]-->
-                                        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- buttons !-->
-
-                    <!-- h1 text box -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="text-wrap-outer p-5">
-                                        <div class="text-wrap" contenteditable="true">
-                                            <h1 class="text-center pb-2 orange">Some Section Title</h1>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, eveniet ad? Ea ad <span class="orange">inventore eaque magnam dolorum</span> explicabo excepturi. Voluptate nulla voluptatibus vitae perspiciatis totam corporis, ab iusto hic asperiores.
-                                            </p>
-                                            <p><strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi unde odio numquam.</strong> Iusto consectetur harum, soluta, atque temporibus voluptas iste exercitationem <em>provident blanditiis doloremque distinctio repellendus</em>, vel sit deleniti enim?</p>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- h1 text box !-->
-
-                    <!-- left img right text -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="img-text-block p-5">
-                                        <div class="img-block">
-                                            <div class="figure">
-                                                <img contenteditable="true" src="https://go.acqueon.com/l/792493/2022-06-16/5gtzg/792493/16553859325HGw0pCk/arm_wrestle.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="text-block">
-                                            <div class="text-block-inner" contenteditable="true">
-                                                <h3 class="pb-1 dark-grey">This is a section title</h3>
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quia explicabo temporibus? 
-                                                <small class="light-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quia explicabo temporibus? Dolor reprehenderit magnam repudiandae ipsa commodi pariatur sapiente, atque assumenda at non dolorem quasi tenetur rerum aperiam similique.</small>    
-                                                Dolor reprehenderit magnam repudiandae ipsa commodi pariatur sapiente, atque assumenda at non dolorem quasi tenetur rerum aperiam similique.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- left img right text !-->
-
-                    <!-- UL -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="text-wrap-outer p-5">
-                                        <div class="text-wrap" contenteditable="true">
-                                            <ul>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- UL !-->
-
-                    <!-- separator -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob spacer-block">
-                        <tbody>
-                            <tr>
-                                <td class="pl-5 pr-5">
-                                    <hr class="spacer-full">
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- separator -->
-
-                    <!-- left text right img -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="img-text-block reversed p-5">
-                                        <div class="text-block">
-                                            <div class="text-block-inner" contenteditable="true">
-                                                <h3 class="pb-1 orange">This is a section title</h3>
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quia explicabo temporibus?    
-                                                Dolor reprehenderit magnam repudiandae ipsa commodi pariatur sapiente, atque assumenda at non dolorem quasi tenetur rerum aperiam similique.</p>
-                                            </div>
-                                        </div>
-                                        <div class="img-block">
-                                            <div class="figure">
-                                                <img contenteditable="true" src="https://go.acqueon.com/l/792493/2022-06-16/5gtzg/792493/16553859325HGw0pCk/arm_wrestle.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- left text right img !-->
-
-                    <!-- highlight -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="highlight highlight-orange">
-                                        <div class="text-block text-center" contenteditable="true">
-                                            <h2 class="pb-1">This is a callout title</h2>
-                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quia explicabo temporibus?    
-                                            Dolor reprehenderit magnam repudiandae ipsa commodi pariatur sapiente, atque assumenda at non dolorem quasi tenetur rerum aperiam similique.</p>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- left text right img !-->
-
-                    <!-- UL -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="text-wrap-outer p-5">
-                                        <div class="text-wrap" contenteditable="true">
-                                            <ol>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
-                                            </ol>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- UL !-->
-                    
-                    <!-- separator -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob spacer-block">
-                        <tbody>
-                            <tr>
-                                <td class="pl-5 pr-5">
-                                    <hr class="spacer-full">
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- separator -->
                 </td>
             </tr>
         </tbody>
     </table>
+    <!-- !content -->
+
+    <!-- icon block 3 items -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="height: 25px;">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="icon-block-outer">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td align="center" style="vertical-align: top;" class="pl-2 pr2 text-center">
+                                                                <img contenteditable="true" src="https://go.acqueon.com/l/792493/2022-08-04/5r59y/792493/1659616756soGZPtaS/5279111_network_fb_social_media_facebook_facebook_logo_icon.png" alt="facebook">
+                                                                <p class="figcaption" contenteditable="true">Some desc for icon</p>
+                                                            </td>
+                                                            <td align="center" style="vertical-align: top;" class="pl-2 pr2 text-center">
+                                                                <img contenteditable="true" src="https://go.acqueon.com/l/792493/2022-08-04/5r59y/792493/1659616756soGZPtaS/5279111_network_fb_social_media_facebook_facebook_logo_icon.png" alt="facebook">
+                                                                <p class="figcaption" contenteditable="true">Some desc for icon<br>and flows into next line</p>
+                                                            </td>
+                                                            <td align="center" style="vertical-align: top;" class="pl-2 pr2 text-center">
+                                                                <img contenteditable="true" src="https://go.acqueon.com/l/792493/2022-08-04/5r59y/792493/1659616756soGZPtaS/5279111_network_fb_social_media_facebook_facebook_logo_icon.png" alt="facebook">
+                                                                <p class="figcaption" contenteditable="true">Some desc for icon</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 25px;">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !icon block 3 items -->
+
+    <!-- button type one -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="height: 5px;">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="middle">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td style="padding: 12px 18px 12px 18px; background-color: #f26524;" align="center">
+                                                                <a rel="noopener" target="_blank" href="#" target="_blank" style="font-size: 14px; font-family: 'Poppins', Helvetica, Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; display: inline-block; text-transform: uppercase;">I am a primary button</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 5px;">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !button type one -->
+    
+    <!-- content h1 text block -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="height: 20px;">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-wrap" contenteditable="true">
+                                                    <h1 class="text-center pb-2 orange">Some Section Title</h1>
+                                                    <p>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, eveniet ad? Ea ad <span class="orange">inventore eaque magnam dolorum</span> explicabo excepturi. Voluptate nulla voluptatibus vitae perspiciatis totam corporis, ab iusto hic asperiores.
+                                                    </p>
+                                                    <p><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi unde odio numquam.</b> Iusto consectetur harum, soluta, atque temporibus voluptas iste exercitationem <em>provident blanditiis doloremque distinctio repellendus</em>, vel sit deleniti enim?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 20px;">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !content h1 text block -->
+
+    <!-- button type two -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="height: 5px;">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="middle">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td style="padding: 12px 18px 12px 18px; background-color: #ffffff;border: 2px solid #f26524;" align="center">
+                                                                <a rel="noopener" target="_blank" href="#" target="_blank" style="font-size: 14px; font-family: 'Poppins', Helvetica, Arial, sans-serif; font-weight: bold; color: #f26524; text-decoration: none; display: inline-block; text-transform: uppercase;">I am a secondary button</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 5px;">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !button type two -->
+
+    <!-- left img right text -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="height: 20px;">&nbsp;</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left" class="containerPadding" style="font-size:0;padding:0" valign="top">
+                                                    <!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0"><tr><td valign="middle"><![endif]-->
+                                                    <div class="row" style="display:inline-block;max-width:300px;vertical-align:middle;width:100%">
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="row">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="right" class="imgResponsive" style="padding:0;" valign="middle"><img alt="#" border="0" contenteditable="true" data-image="arms" src="https://go.acqueon.com/l/792493/2022-06-16/5gtzg/792493/16553859325HGw0pCk/arm_wrestle.jpg" style="display:block;border:0;width:100%;max-width:300px;height:auto;" width="300"></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!--[if (gte mso 9)|(IE)]></td><td valign="top"><![endif]-->
+
+                                                    <div class="row" style="display:inline-block;max-width:20px;vertical-align:top;width:100%">
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="row">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" height="30" style="font-size:30px;line-height:30px;" valign="top" class="">&nbsp;</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!--[if (gte mso 9)|(IE)]></td><td valign="middle"><![endif]-->
+
+                                                    <div class="row" style="display:inline-block;max-width:280px;vertical-align:top;width:100%">
+                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="row" style="width:100%;max-width:280px;" width="280">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="left" class="centerText" contenteditable="true" data-font="Primary" data-gramm="false" data-text="Paragraph" style="font-family:'Poppins', sans-serif;font-size:14px;line-height:22px;font-weight:400;letter-spacing:0px;padding:0;" valign="middle">
+                                                                        <h3 class="pb-1 dark-grey">This is a section title</h3>
+                                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quia explicabo temporibus? 
+                                                                        <small class="light-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quia explicabo temporibus? Dolor reprehenderit magnam repudiandae ipsa commodi pariatur sapiente, atque assumenda at non dolorem quasi tenetur rerum aperiam similique.</small>    
+                                                                        Dolor reprehenderit magnam repudiandae ipsa commodi pariatur sapiente, atque assumenda at non dolorem quasi tenetur rerum aperiam similique.</p>    
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 20px;">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !left img right text -->
 
     <!-- separator -->
     <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
@@ -732,8 +807,18 @@
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob spacer-block">
                         <tbody>
                             <tr>
-                                <td class="pl-5 pr-5">
-                                    <hr class="spacer-full">
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob spacer-table" width="400" style="width: 400px;max-width: 400px;">
+                                        <tr>
+                                            <td style="height: 5px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="background-color: #d7d7d7;height:1px;font-size: 1px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="height: 5px;">&nbsp;</td>
+                                        </tr>
+                                    </table>
                                 </td>
                             </tr>
                         </tbody>
@@ -744,6 +829,218 @@
     </table>
     <!-- separator -->
 
+    <!-- content ul -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
+                                        <tr>
+                                            <td style="height: 20px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">
+                                                <ul>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="height: 20px;">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !content ul -->
+
+    <!-- callout -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob" style="background:#f26524;color:#ffffff;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
+                                        <tr>
+                                            <td style="height: 25px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true" class="text-center" style="color:#ffffff;">
+                                                <h2 class="pb-1">This is a callout title</h2>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quia explicabo temporibus?    
+                                                Dolor reprehenderit magnam repudiandae ipsa commodi pariatur sapiente, atque assumenda at non dolorem quasi tenetur rerum aperiam similique.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="height: 25px;">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !callout -->
+
+    <!-- right img left text -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="height: 20px;">&nbsp;</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="left" class="containerPadding" style="font-size:0;padding:0" valign="top">
+                                                    <!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><![endif]-->
+                                                    <div class="row" style="display:inline-block;max-width:280px;vertical-align:top;width:100%">
+                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="row" style="width:100%;max-width:280px;" width="280">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="left" class="centerText" contenteditable="true" data-font="Primary" data-gramm="false" data-text="Paragraph" style="font-family:'Poppins', sans-serif;font-size:14px;line-height:22px;font-weight:400;letter-spacing:0px;padding:0;" valign="middle">
+                                                                        <h3 class="pb-1 orange">This is a section title</h3>
+                                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quia explicabo temporibus? 
+                                                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quia explicabo temporibus? Dolor reprehenderit magnam repudiandae ipsa commodi pariatur sapiente, atque assumenda at non dolorem quasi tenetur rerum aperiam similique. assumenda at non dolorem quasi tenetur rerum aperiam similique.</p>    
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!--[if (gte mso 9)|(IE)]></td><td valign="top"><![endif]-->
+
+                                                    <div class="row" style="display:inline-block;max-width:20px;vertical-align:top;width:100%">
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="row">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" height="30" style="font-size:30px;line-height:30px;" valign="top" class="">&nbsp;</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!--[if (gte mso 9)|(IE)]></td><td valign="top"><![endif]-->
+
+                                                    <div class="row" style="display:inline-block;max-width:300px;vertical-align:top;width:100%">
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="row">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="right" class="imgResponsive" style="padding:0;" valign="middle"><img alt="#" border="0" contenteditable="true" data-image="arms" src="https://go.acqueon.com/l/792493/2022-06-16/5gtzg/792493/16553859325HGw0pCk/arm_wrestle.jpg" style="display:block;border:0;width:100%;max-width:300px;height:auto;" width="300"></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="height: 20px;">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !right img left text -->
+
+    <!-- content ol -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob-inner" width="600px" style="width: 600px;max-width: 600px;">
+                                        <tr>
+                                            <td style="height: 20px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">
+                                                <ol>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos cum unde minus error temporibus nostrum quasi?</li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="height: 20px;">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- !content ol -->
+
+    <!-- separator -->
+    <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob spacer-block">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob spacer-table" width="400" style="width: 400px;max-width: 400px;">
+                                        <tr>
+                                            <td style="height: 5px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="background-color: #d7d7d7;height:1px;font-size: 1px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="height: 5px;">&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- separator -->
+
+    <!-- author -->
     <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
         <tbody>
             <tr>
@@ -751,28 +1048,37 @@
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob author">
                         <tbody>
                             <tr>
-                                <td class="author-img-td" style="vertical-align: top;">
-                                    <div class="author-img pt-5">
-                                        <img alt="Mike Harakal" src="https://go.acqueon.com/l/792493/2022-07-08/5l6bc/792493/1657289118tM2YaNoj/crazymike2.png">
-                                    </div>
+                                <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob author-inner" width="600" style="width: 600px;max-width: 600px;">
+                                        <tr>
+                                            <td style="height: 25px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="author-img-td" style="vertical-align: top;">
+                                                <div class="author-img">
+                                                    <img alt="Mike Harakal" src="https://go.acqueon.com/l/792493/2022-07-08/5l6bc/792493/1657289118tM2YaNoj/crazymike2.png" width="80" height="80">
+                                                </div>
+                                            </td>
+                                            <td style="vertical-align: top;">
+                                                <div class="author-info">
+                                                    <!--[if (gte mso 9)|(IE)]>
+                                                        <font face=Poppins , Helvetica, Arial, sans-serif;”>
+                                                        <![endif]-->
+                                                        <p class="m-0">Mike Harakal</p>
+                                                        <p class="m-0 f-13">Head of Partner Marketing and Sales Enablement</p>
+                                                        <p class="m-0 f-13"><a href="mailto:mike.harakal@acqueon.com" target="_blank" style="color:#333e48;">mike.harakal@acqueon.com</a>&nbsp;<span class="mobiBlockHide">|</span> 610-428-6598</p>
+                                                        <p class="m-0 f-13"><a href="https://www.linkedin.com/in/mikeharakal/" style="font-weight:bold;text-decoration:none;color: #515151;">Connect with me on LinkedIn</a></p>
+                                                    <!--[if (gte mso 9)|(IE)]>
+                                                        </font>
+                                                        <![endif]-->
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="height: 25px;">&nbsp;</td>
+                                        </tr>
+                                    </table>
                                 </td>
-                                <td style="vertical-align: top;">
-                                    <div class="author-info pt-5">
-                                        <!--[if (gte mso 9)|(IE)]>
-                                            <font face=Poppins , Helvetica, Arial, sans-serif;”>
-                                            <![endif]-->
-                                            <p class="m-0">Mike Harakal</p>
-                                            <p class="m-0 f-13">Head of Partner Marketing and Sales Enablement</p>
-                                            <p class="m-0 f-13">mike.harakal@acqueon.com&nbsp;<span class="mobiBlockHide">|</span> 610-428-6598</p>
-                                            <p class="m-0 f-13"><a href="https://www.linkedin.com/in/mikeharakal/" style="font-weight:bold;text-decoration:none;color: #515151;">Connect with me on LinkedIn</a></p>
-                                        <!--[if (gte mso 9)|(IE)]>
-                                            </font>
-                                            <![endif]-->
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="spacer pb-2"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -780,53 +1086,79 @@
             </tr>
         </tbody>
     </table>
+    <!-- !author -->
 
+    <!-- footer -->
     <table class="table-outer" border="0" cellpadding="0" cellspacing="0">
         <tbody>
             <tr>
                 <td>
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob footer">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="table-mob footer" style="background-color: #333e48; color: #b1b1b1;">
                         <tbody>
                             <tr>
                                 <td class="text-center">
-                                    <div class="social-wrap">
-                                        <h5>Follow Us</h5>
-                                        <ul class="socials">
-                                            <li>
-                                                <a href="https://www.facebook.com/acqueon/" target="_blank">
-                                                    <img src="https://go.acqueon.com/l/792493/2022-08-04/5r59y/792493/1659616756soGZPtaS/5279111_network_fb_social_media_facebook_facebook_logo_icon.png" alt="facebook">
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.linkedin.com/company/acqueon/" target="_blank">
-                                                    <img src="https://go.acqueon.com/l/792493/2022-08-04/5r5b2/792493/1659616756LcAblD8j/5279114_linkedin_network_social_network_linkedin_logo_icon.png" alt="linkedin">
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://twitter.com/acqueon/" target="_blank">
-                                                    <img src="https://go.acqueon.com/l/792493/2022-08-04/5r5b5/792493/1659616756sLLNfMsC/5279123_tweet_twitter_twitter_logo_icon.png" alt="twitter">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <p class="pt-3">Visit <a href="https://acqueon.com/" class="" target="_blank" x-apple-data-detectors="true">acqueon.com</a> to learn more.</p>
-                                        <hr class="small">
-                                    </div>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="text-align:center;color:#b1b1b1;" class="social-wrap">
+                                        <tbody>
+                                            <tr>
+                                                <td style="height: 25px;">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h5>Follow Us</h5>&nbsp;  
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="https://www.facebook.com/acqueon/" target="_blank" class="social-icon">
+                                                        <img src="https://go.acqueon.com/l/792493/2022-08-04/5r59y/792493/1659616756soGZPtaS/5279111_network_fb_social_media_facebook_facebook_logo_icon.png" alt="facebook" width="25" height="25">
+                                                    </a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://www.linkedin.com/company/acqueon/" target="_blank" class="social-icon">
+                                                        <img src="https://go.acqueon.com/l/792493/2022-08-04/5r5b2/792493/1659616756LcAblD8j/5279114_linkedin_network_social_network_linkedin_logo_icon.png" alt="linkedin" width="25" height="25">
+                                                    </a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://twitter.com/acqueon/" target="_blank" class="social-icon">
+                                                        <img src="https://go.acqueon.com/l/792493/2022-08-04/5r5b5/792493/1659616756sLLNfMsC/5279123_tweet_twitter_twitter_logo_icon.png" alt="twitter" width="25" height="25">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="pt-3">Visit <a href="https://acqueon.com/" class="" target="_blank" x-apple-data-detectors="true" style="color: #b1b1b1;">acqueon.com</a> to learn more.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table width="220" border="0" align="center" cellpadding="0" cellspacing="0" style="width:220px;max-width:220px;">
+                                                        <tr>
+                                                            <td style="height: 20px;">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="background-color:#b1b1b1;font-size:1px;height:1px;line-height:1px;">&nbsp;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="height: 20px;">&nbsp;</td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </td>
                             </tr>
 
                             <tr>
-                                <td class="text-center">
-                                    <div class="footer-text">
-                                        <h5>Corporate Headquarters</h5>
-                                        <p>17304 Preston Road, Suite 800<br>
-                                            Dallas, Texas 75252<br>
-                                            Phone: <a href="tel:+18889466878">+1 888-946-6878</a>
-                                        </p>
-                                        <br>
-                                        <p class="f-8 pb-1">To update your email preferences or to unsubscribe, <a href="%%email_preference_center%%" target="_blank">click here</a>.</p>
-                                        <p class="copy f-8">&copy; Acqueon Technologies Inc.</p>
-                                    </div>
+                                <td class="text-center footer-text" style="padding-bottom:0;">
+                                    <h5 style="margin-bottom: 5px;">Corporate Headquarters</h5>
+                                    <p>17304 Preston Road, Suite 800<br>
+                                        Dallas, Texas 75252<br>
+                                        Phone: <a href="tel:+18889466878" style="color: #b1b1b1;">+1 888-946-6878</a>
+                                    </p>
+                                    <br>
+                                    <p class="f-8 pb-1">To update your email preferences or to unsubscribe, <a href="%%email_preference_center%%" target="_blank" style="color: #b1b1b1;">click here</a>.</p>
+                                    <p class="copy f-8">&copy; Acqueon Technologies Inc.</p>
                                 </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 25px;">&nbsp;</td>
                             </tr>
                         </tbody>
                     </table>
@@ -834,5 +1166,6 @@
             </tr>
         </tbody>
     </table>
+    <!-- !footer -->
 </body>
 </html>
